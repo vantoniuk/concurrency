@@ -1,10 +1,10 @@
-package com.leapfin.task.search
+package mokey_typist.search
 
-import akka.actor.{Actor, ActorLogging, ActorRef, PoisonPill}
-import com.leapfin.task.util.RandomCharGenerator
+import akka.actor.{Actor, ActorLogging, ActorRef}
+import mokey_typist.util.RandomCharGenerator
 import org.joda.time.DateTime
 
-import scala.concurrent.duration.{Duration, FiniteDuration}
+import scala.concurrent.duration.FiniteDuration
 import scala.util.{Failure, Success}
 
 /**

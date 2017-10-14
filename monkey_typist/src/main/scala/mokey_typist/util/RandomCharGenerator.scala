@@ -1,4 +1,4 @@
-package com.leapfin.task.util
+package mokey_typist.util
 
 import scala.util.{Random, Try}
 

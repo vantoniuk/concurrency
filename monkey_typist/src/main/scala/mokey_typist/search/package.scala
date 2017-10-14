@@ -1,4 +1,4 @@
-package com.leapfin.task
+package mokey_typist
 
 import scala.concurrent.Promise
 import scala.concurrent.duration.FiniteDuration

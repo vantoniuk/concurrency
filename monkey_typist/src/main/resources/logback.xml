@@ -23,7 +23,7 @@
         </encoder>
     </appender>
 
-    <logger name="com.leapfin" level="INFO" />
+    <logger name="monkey_typist" level="INFO" />
 
     <root level="ERROR">
         <appender-ref ref="STDOUT" />

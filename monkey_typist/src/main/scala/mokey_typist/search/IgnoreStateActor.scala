@@ -1,4 +1,4 @@
-package com.leapfin.task.search
+package mokey_typist.search
 
 import akka.actor.{Actor, ActorLogging}
 

@@ -1,10 +1,10 @@
-package com.leapfin.task
+package mokey_typist
 
 import javax.inject.Singleton
 
 import akka.actor.ActorSystem
 import com.google.inject.{AbstractModule, Provides}
-import com.leapfin.task.util.{DefaultRandomCharGeneratorFactory, RandomCharGeneratorFactory}
+import mokey_typist.util.{DefaultRandomCharGeneratorFactory, RandomCharGeneratorFactory}
 
 import scala.concurrent.ExecutionContext
 

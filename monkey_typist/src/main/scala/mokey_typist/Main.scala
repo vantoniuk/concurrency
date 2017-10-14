@@ -1,15 +1,13 @@
-package com.leapfin.task
-
+package mokey_typist
 
 import com.google.inject.{Guice, Injector}
-import com.leapfin.task.util.Loggable
+import mokey_typist.util.Loggable
 import org.joda.time.DateTime
 import org.rogach.scallop.ScallopConf
 
 import scala.concurrent.ExecutionContext
 import scala.concurrent.duration.FiniteDuration
 import scala.util.{Failure, Success}
-import scala.concurrent.duration._
 
 class StringLookupConf(arguments: Seq[String]) extends ScallopConf(arguments) with Loggable {
   private val timeoutRegex = "(\\d+)(\\w+)".r

@@ -1,8 +1,8 @@
-package com.leapfin.task
+package mokey_typist
 
 import akka.actor.{ActorSystem, Props}
-import com.leapfin.task.search._
-import com.leapfin.task.util.{Loggable, RandomCharGeneratorFactory}
+import mokey_typist.search._
+import mokey_typist.util.{Loggable, RandomCharGeneratorFactory}
 
 import scala.concurrent.duration.FiniteDuration
 import scala.concurrent.{Future, Promise}
